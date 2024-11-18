@@ -24,6 +24,8 @@ with col2:
     st.image('시각화2.png')
     st.subheader('데이터 시각화3: 부모의 교육 수준')
     st.image('시각화3.png')
+    st.subheader('데이터 시각화4: 공부 시간')
+    st.image('시각화4.png')
 
 # 4. 모델 활용
 
