@@ -6,7 +6,7 @@ import joblib as jl
 
 # 1. 기계학습 모델 파일 로드
 
-model = jl.load('')
+#model = jl.load('')
 
 
 # 2. 모델 설명
@@ -48,7 +48,7 @@ with col3:
     st.write('훈련 데이터 : 4625개')
     st.write('테스트 데이터 : 1982개')
 
-if st.button('점수 예측'):
-    input_data = [[]]
-    p = model.predict(input_data)
-    st.write('인공지능이 예상한 당신의 점수는',p)
+#if st.button('점수 예측'):
+#    input_data = [[]]
+#    p = model.predict(input_data)
+#    st.write('인공지능이 예상한 당신의 점수는',p)
